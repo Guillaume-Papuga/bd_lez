@@ -14,7 +14,7 @@ p.proc.data <- file.path(paste0(dir, "/data/processed"))
 packages = c("tidyverse" # packages' collection for data manipulation 
              # ""
 ) 
-source(file = file.path(paste0(dir, "/03.functions.R")))
+# source(file = file.path(paste0(dir, "/03.functions.R")))
 
 # ------------------------------------------------------------------------------
 # Time stamps for files' name 
