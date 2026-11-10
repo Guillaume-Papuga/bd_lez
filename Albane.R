@@ -67,5 +67,3 @@ package.check <- lapply(
     }
   }
 )
-
-
