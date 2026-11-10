@@ -16,7 +16,7 @@ library("lubridate") #date manipulations
   
   # Packages to do beautiful figures
   ##Graphics
-library("ggplot2")
+library("ggplot2") 
 
 
 ## Time stamps for files' name -------------------------------------------------
