@@ -111,7 +111,6 @@ if (exists("data_lutra") & exists("data_coypus") ==F) {
   ) 
   data_lutra$specie <- "Lutra lutra"
   
-  
   # Saving data 
   write.csv(data_lutra, file = file.path(paste0(p.proc.data, "/lutra_processed_", date,".csv")))
   # saveRDS(data_lutra, file = file.path(paste0(p.proc.data, "/lutra_processed_", date,".RData")))
