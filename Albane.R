@@ -18,7 +18,7 @@ packages = c("tidyverse" # packages' collection for data manipulation
 ) 
 source(file = file.path(paste0(dir, "/03.functions.R")))
 
-# 03   ------------------------------------------------------------------------------
+# 03. ------------------------------------------------------------------------------
 # FUNCTIONS  ------------------------------------------------------------------------------
 ## Packages ------------------------------------------------------------------------------
 #used in 01.R Package checking 
@@ -84,12 +84,10 @@ data_lutra <- read.csv(file = file.path(latest.lutra))
 latest.coypus <- get_latest_coypus(p.proc.data) 
 data_coypus <- read.csv(file = file.path(latest.coypus))
 
-# ==============================================================================
-# 02.
-# DATA PROCESSING : 
+# 02. ------------------------------------------------------------------------------
+# DATA PROCESSING ------------------------------------------------------------------------------
 # -> reads raw data and makes modifications to create processed data  
 # -> saves processed data in /DATA/PROCESSED 
-# ------------------------------------------------------------------------------
 
 if (exists("data_lutra") & exists("data_coypus") ==F) {
   # Data Myocastor coypus  
